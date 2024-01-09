@@ -1,27 +1,31 @@
 import React from 'react'
-import Sidebar from '../Components/Sidebar'
-import Catagories from '../Components/Catagories'
-import Job from '../Components/Job'
-import Header from './Header'
 import { Col, Row } from 'react-bootstrap'
-
+import Categories from '../Components/Categories'
+import SideBar from '../Components/SideBar'
+import Job from '../Components/Job'
 
 
 function Home() {
+
   return (
     <>
-    <Header/>
-    <Row>
-        <Col xs="auto">
-            <Sidebar/>
-        </Col>
-        <Col sm={4}>
-            <Catagories/>
-        </Col>
-        <Col>
+        <Row className='home' style={{background:'#F3F5FD'}}>
+
+          <Col sm={12} md={1} >
+            <SideBar/>
+          </Col>
+
+          <Col sm={12} md={4} >
+           
+            <Categories />
+          
+          </Col>
+
+          <Col sm={12} md={7}>
             <Job/>
-        </Col>
-    </Row>
+          </Col>
+
+        </Row>
     </>
   )
 }

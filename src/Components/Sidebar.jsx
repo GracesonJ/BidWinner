@@ -1,76 +1,60 @@
 import React from 'react'
+import { BsCardText } from "react-icons/bs";
+import { RiArrowGoBackLine } from "react-icons/ri";
 
-function Sidebar() {
+
+
+function SideBar() {
   return (
-    <>
-    <div className="">
-        <div className="bg-primary p-2 border">
-            <div className="d-flex justify-content-center">
-                <i class="fa-solid fa-arrow-left" style={{color: "#ffffff"}}></i>
-            </div>
-            <div className="text-center mt-1 fs-6">
-                <p>Back To Jobs</p>
-            </div>
+    <div className='side-bar'>
+        <div className="border d-flex text-center row align-items-center justify-content-center p-2 " style={{background:'#006AEC'}}>
+            <RiArrowGoBackLine style={{color:'white',fontSize:'1.5rem'}}/>
+            <small className='text-white'>back to job</small>
         </div>
-        <div className="p-2 border">
-            <div className="d-flex justify-content-center mt-1">
-            <i class="fa-solid fa-memory" style={{color: "#2c2d30"}}></i>
-            </div>
-            <div className="text-center mt-2 fs-6">
-                <p>Notes</p>
-            </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>Notes</small>
         </div>
-        <div className="p-2 border">
-            <div className="d-flex justify-content-center mt-1">
-            <i class="fa-solid fa-memory" style={{color: "#2c2d30"}}></i>
-            </div>
-            <div className="text-center mt-2 fs-6">
-                <p>Extensions</p>
-            </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+                <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>Take off</small>
         </div>
-        <div className="p-2 border">
-            <div className="d-flex justify-content-center mt-1">
-            <i class="fa-solid fa-memory" style={{color: "#2c2d30"}}></i>
-            </div>
-            <div className="text-center mt-2 fs-6">
-                <p>Gen Exp</p>
-            </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>Extension</small>
         </div>
-        <div className="p-2 border">
-            <div className="d-flex justify-content-center mt-1">
-            <i class="fa-solid fa-memory" style={{color: "#2c2d30"}}></i>
-            </div>
-            <div className="text-center mt-2 fs-6">
-                <p>Brk Bwn</p>
-            </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>Dilb</small>
         </div>
-        <div className="p-2 border">
-            <div className="d-flex justify-content-center mt-1">
-            <i class="fa-solid fa-memory" style={{color: "#2c2d30"}}></i>
-            </div>
-            <div className="text-center mt-2 fs-6">
-                <p>DiLb</p>
-            </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>inclb</small>
         </div>
-        <div className="p-2 border">
-            <div className="d-flex justify-content-center mt-1">
-            <i class="fa-solid fa-memory" style={{color: "#2c2d30"}}></i>
-            </div>
-            <div className="text-center mt-2 fs-6">
-                <p>IncLb</p>
-            </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>Lbfac</small>
         </div>
-        <div className="p-2 border">
-            <div className="d-flex justify-content-center mt-1">
-            <i class="fa-solid fa-memory" style={{color: "#2c2d30"}}></i>
-            </div>
-            <div className="text-center mt-2 fs-6">
-                <p>LbFac</p>
-            </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>Lbesc</small>
         </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>IndLB</small>
+        </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>sbcon</small>
+        </div>
+        <div className="border d-flex text-center row align-items-center justify-content-center text-primary  p-2  bg-white">
+            <BsCardText style={{color:'grey',fontSize:'1.5rem'}}/>
+            <small className='text-muted'>Gen Exp</small>
+        </div>
+        
     </div>
-    </>
+    
   )
 }
 
-export default Sidebar
+export default SideBar
