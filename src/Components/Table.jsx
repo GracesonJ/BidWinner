@@ -14,9 +14,9 @@ function Table() {
       <tbody>
         <tr>
           <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <td>Fixture</td>
+          <td>c</td>
+          <td><i class="fa-solid fa-arrow-right"></i></td>
         </tr>
       </tbody>
     </>
