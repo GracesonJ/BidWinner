@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Dropdown from 'react-bootstrap/Dropdown';
-import Avatar from '../Images/avatar.png'
+import Avatar from '../Images/avatar.jpeg'
 import { LuBellDot } from "react-icons/lu";
 
 function Header() {
@@ -31,7 +31,7 @@ function Header() {
                         <div className='footer-bottom d-flex'>
                             <Dropdown className='me-3 d-flex flex-row p-1 m-2' style={{ border: '1px solid white', borderRadius: '5px', background: '#243263', width: 'fit-content' }} >
                                 <div className='align-self-center text-light p-1'>
-                                    <h6 className='m-0 p-0 text-end'> Johnson j</h6>
+                                    <h6 className='m-0 p-0 text-end'> Johnson J</h6>
                                     <small className='m-0 p-0'> johnsonj@gmail.com</small>
                                 </div>
                                 <div className="p-2 mt-1">
